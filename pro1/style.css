@@ -1,0 +1,119 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@500&display=swap') */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-card{
+    max-width: 370px;
+    width: 100%;
+    border-radius: 10%;
+    padding: 25px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.image{
+    background-color: blueviolet;
+   border-radius: 50%;
+   margin-bottom: 10px;
+    position: relative;
+    height: 150px;
+    width: 150px;
+
+ 
+
+    
+}
+.image .profile{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #0db2e4;
+   
+    
+
+}
+.profile-card .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-data .name{
+ font-size: 22px;
+ font-weight: 500;
+}
+.text-data .job{
+    font-size: 15px;
+    font-weight: 400;
+}
+.profile-card .media-button{
+    display: flex;
+    
+    align-items: center;
+    margin-top: 15px;
+}
+.media-button .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 0 8px;
+    background-color: #4070f4;
+    text-decoration: none;
+}
+.subscrib-sms{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+   
+    
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #4070f4;
+    color: #fff;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: #0db2e4;
+}
+.icon-like-sms-share{
+    display: flex;
+    margin-top: 40px;
+    flex-shrink: inherit;
+    gap: 10px;
+    
+    
+}
+.icon1{
+    color: #333;
+    padding: 0 20px;
+    border-right: 2px solid #e8edee;
+}
+.icon1:last-child{
+    border-right: none;
+}
+.icon1:hover{
+    color: rgb(221, 0, 85);
+}
