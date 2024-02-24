@@ -23,7 +23,7 @@ section::before{
     width: 240px;
     border-radius: 50%;
     transform: translate(-150px, -100px);
-    background: linear-gradient(90deg, #9c27b0, #f3f5f5);
+    background: linear-gradient(90deg, #e722a6, #399b9b);
 }
 section::after{
     content: "";
@@ -32,7 +32,7 @@ section::after{
     width: 240px;
     border-radius: 50%;
     transform: translate(150px, 100px);
-    background: linear-gradient(90deg, #9c27b0, #f3f5f5);
+    background: linear-gradient(90deg, #e722a6, #68eeee);
 }
 .container{
     position: relative;
