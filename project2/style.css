@@ -23,7 +23,7 @@ section::before{
     width: 240px;
     border-radius: 50%;
     transform: translate(-150px, -100px);
-    background: linear-gradient(90deg, #e722a6, #399b9b);
+    background: linear-gradient(90deg, #e722a6, #68eeee);
 }
 section::after{
     content: "";
